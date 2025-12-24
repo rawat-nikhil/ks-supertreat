@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Instagram, Facebook, Twitter, Mail } from "lucide-react";
+import { Instagram, Mail, MessageCircle } from "lucide-react";
 
 export default function MiddleHero() {
   return (
@@ -65,10 +65,9 @@ export default function MiddleHero() {
           className="flex justify-center space-x-8 mt-20"
         >
           {[
-            { icon: <Facebook size={20} />, href: "#" },
-            { icon: <Twitter size={20} />, href: "#" },
-            { icon: <Instagram size={20} />, href: "#" },
-            { icon: <Mail size={20} />, href: "#" },
+            { icon: <Mail size={20} />, href: "mailto:ks.supertreat@gmail.com" },
+            { icon: <MessageCircle size={20} />, href: "https://wa.me/919910098774" },
+            { icon: <Instagram size={20} />, href: "https://www.instagram.com/ks_supertreats?igsh=a2RqMnd1MHRtNmgw" },
           ].map((social, idx) => (
             <Link
               key={idx}

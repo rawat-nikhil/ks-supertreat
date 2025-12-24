@@ -24,8 +24,8 @@ export default function InfoSection() {
             <span className="text-accent italic">Healthy Bakes</span>
           </h2>
           <p className="mt-8 text-primary/60 max-w-sm font-body">
-            Visit our physical location to experience the aroma of freshly baked
-            gluten-free goodness.
+            Connect with us online to experience the aroma and goodness of our
+            freshly baked gluten-free treats.
           </p>
         </motion.div>
 

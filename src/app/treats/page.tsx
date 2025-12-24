@@ -80,7 +80,7 @@ const treats = [
     longDescription:
       "A dense, nutritious bread made with a blend of teff, amaranth, and buckwheat. It's high in protein and fiber, making it the perfect base for your morning toast.",
     image:
-      "https://images.unsplash.com/photo-1481134661005-4f4f34690327?auto=format&fit=crop&q=80&w=800",
+      "https://plus.unsplash.com/premium_photo-1667806841904-751960cadc78?w=800&auto=format&fit=crop&q=80&w=800",
     ingredients: [
       "Teff Flour",
       "Amaranth",
@@ -96,7 +96,7 @@ const treats = [
     longDescription:
       "Compressed dates, walnuts, and dried apricots provide a natural energy boost. No added sugars, preservatives, or animal products. Just pure, whole-food energy.",
     image:
-      "https://images.unsplash.com/photo-1563214483-34ea1f1cb5b8?auto=format&fit=crop&q=80&w=800",
+    "https://plus.unsplash.com/premium_photo-1726567910881-8130e305bfdd?q=80&w=987&auto=format&fit=crop&q=80&w=800",
     ingredients: [
       "Medjool Dates",
       "Walnuts",

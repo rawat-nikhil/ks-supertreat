@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 export default function Gallery() {
   const images = [
     "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1517433670267-24734480e7a3?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1595450269117-a4c68af150d2?w=800&auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1585478259844-06d7b756b082?w=800&auto=format&fit=crop&q=80&w=800",
   ];
 
   return (

@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Gluten-Free Bakery | KS supertreat",
   description:
     "Freshly baked goodness, healthy for you. Sugar-free delights and gluten-free treats.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

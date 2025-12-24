@@ -42,8 +42,8 @@ export default function Footer() {
             Contact
           </h3>
           <div className="space-y-4 font-light text-lg">
-            <p>hello@kssupertreat.com</p>
-            <p>+1 (555) 123-4567</p>
+            <p>ks.supertreat@gmail.com</p>
+            <p>+91 9910098774</p>
           </div>
         </div>
 
@@ -52,9 +52,9 @@ export default function Footer() {
             Address
           </h3>
           <div className="space-y-2 font-light text-lg">
-            <p>123 Baker Street,</p>
-            <p>Maryland,</p>
-            <p>United States</p>
+            <p>123 Sohna Road,</p>
+            <p>Gurgaon,</p>
+            <p>India</p>
           </div>
         </div>
       </div>
@@ -62,15 +62,22 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto mt-12 flex flex-col md:flex-row justify-between items-center opacity-60 text-sm">
         <p>© 2025 All Rights Reserved | KS Supertreat</p>
         <div className="flex space-x-6 mt-6 md:mt-0">
-          <span className="cursor-pointer hover:text-white transition-colors">
-            Facebook
-          </span>
-          <span className="cursor-pointer hover:text-white transition-colors">
-            X
-          </span>
-          <span className="cursor-pointer hover:text-white transition-colors">
+          <Link
+            href="https://wa.me/919910098774"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer hover:text-white transition-colors"
+          >
+            WhatsApp
+          </Link>
+          <Link
+            href="https://www.instagram.com/ks_supertreats?igsh=a2RqMnd1MHRtNmgw"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer hover:text-white transition-colors"
+          >
             Instagram
-          </span>
+          </Link>
         </div>
       </div>
     </footer>

@@ -17,19 +17,19 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 px-6 py-4">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-white backdrop-blur-md border-b border-gray-100 px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="relative w-10 h-10 overflow-hidden rounded-lg">
             <Image
               src="/logo.png"
-              alt="KS Supertreat"
+              alt="KS Supertreats"
               fill
               className="object-cover transition-transform group-hover:scale-110"
             />
           </div>
           <span className="text-xl font-bold tracking-tight text-primary transition-colors group-hover:text-accent uppercase">
-            KS supertreat
+            KS supertreats
           </span>
         </Link>
 

@@ -10,9 +10,7 @@ import {
   Clock,
   Send,
   Instagram,
-  Facebook,
-  Twitter,
-  Linkedin,
+  MessageCircle,
 } from "lucide-react";
 
 export default function ContactPage() {
@@ -77,12 +75,12 @@ export default function ContactPage() {
                   {
                     icon: <MapPin className="text-accent" />,
                     title: "Our Location",
-                    content: "123 Baker street, Maryland,\nUnited States",
+                    content: "123 Sohna Road, Gurgaon,\nIndia",
                   },
                   {
                     icon: <Mail className="text-accent" />,
                     title: "Email Us",
-                    content: "hello@kssupertreat.com\norders@kssupertreat.com",
+                    content: "ks.supertreat@gmail.com\norders@kssupertreat.com",
                   },
                   {
                     icon: <Clock className="text-accent" />,
@@ -115,10 +113,9 @@ export default function ContactPage() {
               </h4>
               <div className="flex gap-4">
                 {[
-                  { icon: <Instagram size={20} />, href: "#" },
-                  { icon: <Facebook size={20} />, href: "#" },
-                  { icon: <Twitter size={20} />, href: "#" },
-                  { icon: <Linkedin size={20} />, href: "#" },
+                  { icon: <Instagram size={20} />, href: "https://www.instagram.com/ks_supertreats?igsh=a2RqMnd1MHRtNmgw" },
+                  { icon: <MessageCircle size={20} />, href: "https://wa.me/919910098774" },
+                  { icon: <Mail size={20} />, href: "mailto:ks.supertreat@gmail.com" },
                 ].map((social, i) => (
                   <motion.a
                     key={i}

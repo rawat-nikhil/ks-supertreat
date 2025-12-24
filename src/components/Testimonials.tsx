@@ -5,28 +5,28 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     text: "KS supertreat’s snacks have transformed my afternoons—no sugar crash, just pure satisfaction.",
-    author: "Olivia T.",
+    author: "Gitika S.",
     time: "4 days ago",
     stars: 5,
     avatar: "https://i.pravatar.cc/150?u=olivia",
   },
   {
     text: "Finally, a bakery that gets it right—flavorful, healthy, and perfect for my dietary needs.",
-    author: "Marcus D.",
+    author: "Tanmay Joshi",
     time: "3 weeks ago",
     stars: 5,
     avatar: "https://i.pravatar.cc/150?u=marcus",
   },
   {
     text: "The crisp texture and natural sweetness of these treats keep me coming back for more.",
-    author: "Sarah L.",
+    author: "Sana Ali",
     time: "1 month ago",
     stars: 5,
     avatar: "https://i.pravatar.cc/150?u=sarah",
   },
   {
     text: "I appreciate how KS supertreat balances taste and health without compromise.",
-    author: "James R.",
+    author: "Lara P.",
     time: "2 months ago",
     stars: 5,
     avatar: "https://i.pravatar.cc/150?u=james",
